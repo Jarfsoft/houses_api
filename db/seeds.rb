@@ -28,7 +28,7 @@ Device.create([{ name: 'IPhone 12 Pro', description: 'The mobile was launched in
   and weigh 186.00 grams. Connectivity options include Wi-Fi, GPS, Bluetooth and USB Type-C.
   Sensors on the phone include Fingerprint sensor, Proximity sensor, Accelerometer and
   Ambient light sensor.', image_url:
-  'https://raw.githubusercontent.com/Jarfsoft/houses_api/main/.github/images/SamsungGalaxyA22',
+  'https://raw.githubusercontent.com/Jarfsoft/houses_api/main/.github/images/SamsungGalaxyA22.jpg',
   price: 960.95 }, { name: 'Huawei Mate 40E', description: 'The smartphone was launched in 10th
   March 2021. The phone comes with a 6.50-inch touchscreen display with a resolution of 1080
   pixels by 2376 pixels. The Huawei Mate 40E is powered by 1.95GHz octa-core (2x2.86GHz +
