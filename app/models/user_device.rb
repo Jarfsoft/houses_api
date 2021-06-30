@@ -1,0 +1,2 @@
+class UserDevice < ApplicationRecord
+end
