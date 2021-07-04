@@ -28,6 +28,6 @@ class UserDevicesController < ApplicationController
   private
 
   def user_device_params
-    params.permit(:user_id, :device_id)
+    params.permit(:user_ID, :device_ID)
   end
 end
