@@ -15,7 +15,8 @@ class UserDevicesController < ApplicationController
     if @user_device.save
       render json: { status: 'SUCCESS', message: 'Saved relation', data: @user_device }, status: :ok
     else
-      render json: { status: 'ERROR', message: 'Relation not saved', data: @user_device.errors }, status: :unprocessable_entity
+      render json: { status: 'ERROR', message: 'Relation not saved', data: @user_device.errors },
+             status: :unprocessable_entity
     end
   end
 
