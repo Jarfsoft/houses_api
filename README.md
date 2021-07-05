@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Ruby on Rails API for Find Page
 
-> This Rails app was created in order to deploy a live API for back-end functionality for a Find Your Device web aplication. There are 3 different tables: Users, Devices and Favorites. The relationship between Davices and Users tables has been implemented correctly in order to create the Favorite table.
+> This Rails app was created in order to deploy a live API for back-end functionality for a Find Your Device web aplication. There are 3 different tables: Users, Devices, and Favorites. The relationship between Devices and Users tables has been implemented correctly in order to create the Favorite table.
 
 > The MVC concepts of RoR have been used to provide functionality.
 
