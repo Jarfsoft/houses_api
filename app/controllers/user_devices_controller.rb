@@ -4,11 +4,6 @@ class UserDevicesController < ApplicationController
     render json: { status: 'SUCCESS', message: 'Loaded relations', data: @user_devices }, status: :ok
   end
 
-  def show
-    @user_device = UserDevice.find(params[:id])
-    render json: { status: 'SUCCESS', message: 'Loaded relation', data: @user_device }, status: :ok
-  end
-
   def create
     @user_device = UserDevice.new(user_device_params)
 

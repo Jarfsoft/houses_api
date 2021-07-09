@@ -58,7 +58,15 @@ Assuming that `Bundler` is installed, you can continue with the following steps:
 - Step 5: Now, you need to run the migrations. To do this, while in the project root folder type in: `rails db:migrate`.
 - Step 6: Now, to try the project type in: `rails console`. You can add Users, Posts and Comments in hash form. Remember to take into account the restrictions in place for each model. You can check them out in *app/models*.
 
-### Authors
+### Author
+
+### Running test with Rspec
+
+In order to run the tests correctly, you should follow these steps:
+
+- Step 1: run `rake db:seed RAILS_ENV=test` on the terminal.
+- Step 2: run `rspec --format documentation` on the terminal to test the models.
+- Step 3: run `rails test` on the terminal to tests the controllers methods.
 
 👤 **Juan Raudales**
 
